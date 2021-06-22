@@ -1,0 +1,44 @@
+name: ChampionsTour
+version: 1.0
+main: org.onlyvanilla.championstour.MainClass
+description: Champions Tour Commands
+commands:
+    champions:
+        description: See champions tour help
+        usage: /champions
+    ctclear:
+        description: Clear participant list
+        usage: /ctclear
+        permission: championstour.ctclear
+    ctsetname:
+        description: Set event name info 
+        usage: /ctsetname
+        permission: championstour.ctsetname
+    ctrewards:
+        description: See champions tour rewards
+        usage: /ctrewards
+    ctsetgamemode:
+        description: Set event gamemode info 
+        usage: /ctsetgamemode
+        permission: championstour.ctsetgamemode
+    ctsetdate:
+        description: Set event date info 
+        usage: /ctsetdate
+        permission: championstour.ctsetdate
+    ctsettime:
+        description: Set event time info 
+        usage: /ctsettime
+        permission: championstour.ctsettime               
+    ctjoin:
+        description: Enter current open event
+        usage: /ctjoin
+    ctinfo:
+        description: See current open event info
+        usage: /ctinfo
+    ctlist:
+        description: View participant list
+        usage: /ctlist
+    ctreload:
+        description: Reload config
+        usage: /ctreload  
+        permission: championstour.reload             
